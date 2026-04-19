@@ -1,0 +1,220 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+<meta name="color-scheme" content="dark" />
+<title>Zach Ko — Software Engineer · AI Builder</title>
+<meta name="description" content="Zach Ko — Software Engineer at JPMorgan. Building AI in public. Creator of Moss, a Rust-based AI operating system. Open to collab." />
+<meta name="theme-color" content="#06060c" />
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚡</text></svg>" />
+
+<!-- Open Graph -->
+<meta property="og:title" content="Zach Ko — Software Engineer · AI Builder" />
+<meta property="og:description" content="Software Engineer at JPMorgan. Building AI in public. Creator of Moss." />
+<meta property="og:type" content="website" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<div class="bg" aria-hidden="true"></div>
+<div class="grain" aria-hidden="true"></div>
+<div class="spot" aria-hidden="true"></div>
+
+<nav class="top">
+  <div class="wrap row">
+    <a href="#top" class="brand"><span class="dot"></span> zach.ko</a>
+    <div class="links">
+      <a class="link" href="#about">about</a>
+      <a class="link" href="#work">work</a>
+      <a class="link" href="#contact">contact</a>
+    </div>
+  </div>
+</nav>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero wrap">
+    <span class="eyebrow"><span class="live"></span> Software Engineer · AI Builder · Building in public</span>
+
+    <h1 class="name">
+      Zach <span class="grad">Ko</span>
+    </h1>
+
+    <p class="tag" id="typeline">
+      I have the ability to shape the future.<span class="cursor" aria-hidden="true"></span>
+    </p>
+
+    <p class="sub">
+      <b>Software Engineer at JPMorgan</b> by day, AI builder by night. I'm shipping
+      <b>Moss</b> — a Rust-native AI runtime — out in the open. If you're building something
+      ambitious in AI, let's talk.
+    </p>
+
+    <div class="cta-row">
+      <a class="btn primary" href="#work">See what I'm building <span class="arrow">→</span></a>
+      <a class="btn" href="#contact">Get in touch</a>
+      <a class="btn" href="https://github.com/zachkongoyu" target="_blank" rel="noopener">GitHub ↗</a>
+    </div>
+
+    <div class="status" aria-hidden="true">
+      <div class="seg"><span class="k">loc</span> · NYC</div>
+      <div class="seg"><span class="k">stack</span> · rust · python · ts · llm-runtime</div>
+      <div class="seg"><span class="k">status</span> · open to collab</div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="about wrap">
+    <div class="reveal">
+      <div class="eyehead">about</div>
+      <h2>Software engineer who believes the next decade <span class="glow">belongs to builders.</span></h2>
+      <p>
+        I'm a software engineer at <b>JPMorgan</b>, working on systems that move at the scale of one of the world's
+        largest banks. Outside of work, I'm obsessed with AI — what it can do today, and what it should be doing
+        five years from now.
+      </p>
+      <p>
+        I build in public because the best way to learn is to ship, and the best way to find collaborators is
+        to be visible. If something I'm working on resonates with you, <b>reach out</b>.
+      </p>
+      <div class="chips">
+        <span class="chip on">AI runtimes</span>
+        <span class="chip on">Agents</span>
+        <span class="chip">Rust</span>
+        <span class="chip">Distributed systems</span>
+        <span class="chip">Developer tools</span>
+        <span class="chip">Finance infra</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- WORK -->
+  <section id="work" class="wrap">
+    <div class="reveal">
+      <div class="eyehead">work · selected</div>
+      <h2>Building tools that make AI <span class="glow">behave like a system.</span></h2>
+    </div>
+
+    <div class="cards">
+      <article class="card reveal">
+        <div class="ribbon">Active · OSS</div>
+        <h3>Moss — AI Operating System</h3>
+        <div class="ksub">rust · tokio · agent runtime</div>
+        <p>
+          A local-first AI runtime that converts intents into <b>parallel execution plans</b>,
+          generates code on the fly, and coordinates specialist agents through a
+          <b>Blackboard-style shared memory</b>. No fixed tools. No framework lock-in.
+        </p>
+        <p style="margin-top:12px;">
+          The bet: AI doesn't have to think like a human. Give it concurrency, code-gen, and
+          shared state, and it can solve goals that linear "ReAct" agents can't touch.
+        </p>
+        <div class="row">
+          <span class="chip">Rust 2024</span>
+          <span class="chip">Tokio</span>
+          <span class="chip">DashMap</span>
+          <span class="chip">OpenRouter</span>
+          <span class="chip">Apache-2.0</span>
+        </div>
+        <div class="meta">
+          <a href="https://github.com/zachkongoyu/moss" target="_blank" rel="noopener">View source ↗</a>
+          <a href="https://github.com/zachkongoyu/moss#readme" target="_blank" rel="noopener">Read the design ↗</a>
+        </div>
+      </article>
+
+      <article class="card alt reveal">
+        <div class="ribbon" style="background:rgba(155,92,255,.12); color:#c8a8ff; border-color:rgba(155,92,255,.35)">Thesis</div>
+        <h3>Why I'm building this</h3>
+        <p class="big">
+          <code>// the prompt:</code><br/>
+          What if AI didn't have to think<br/>
+          like a human?<br/><br/>
+          <code>// the answer:</code><br/>
+          parallel intents → atomic tasks →<br/>
+          a unified solver that <code>generates</code> and<br/>
+          <code>executes</code> code, iteratively, until done.<br/><br/>
+          <code>// shape:</code> blackboard pattern<br/>
+          <code>// substrate:</code> rust<br/>
+          <code>// posture:</code> local-first
+        </p>
+        <div class="meta">
+          <a href="https://github.com/zachkongoyu" target="_blank" rel="noopener">More on GitHub ↗</a>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="wrap contact">
+    <div class="reveal">
+      <div class="eyehead">contact · let's build</div>
+      <h2>Working on something <span class="glow">ambitious in AI?</span> Same.</h2>
+      <p style="color:var(--ink-dim); margin-top:18px; max-width:60ch;">
+        I'm open to collaboration on agent runtimes, AI infra, dev tools, and anything where
+        the bottleneck is taste and execution. Reach out — short pitch is fine.
+      </p>
+
+      <div class="cgrid">
+        <a class="clink" href="mailto:ngoyuko78@gmail.com">
+          <div class="l">
+            <div class="icon">@</div>
+            <div>
+              <div class="t">Email</div>
+              <div class="v">ngoyuko78@gmail.com</div>
+            </div>
+          </div>
+          <div class="arr">→</div>
+        </a>
+
+        <a class="clink" href="https://github.com/zachkongoyu" target="_blank" rel="noopener">
+          <div class="l">
+            <div class="icon">{ }</div>
+            <div>
+              <div class="t">GitHub</div>
+              <div class="v">github.com/zachkongoyu</div>
+            </div>
+          </div>
+          <div class="arr">↗</div>
+        </a>
+
+        <a class="clink" href="https://www.linkedin.com/in/zachko/" target="_blank" rel="noopener">
+          <div class="l">
+            <div class="icon">in</div>
+            <div>
+              <div class="t">LinkedIn</div>
+              <div class="v">linkedin.com/in/zachko</div>
+            </div>
+          </div>
+          <div class="arr">↗</div>
+        </a>
+
+        <a class="clink" href="https://x.com/zachkongoyu" target="_blank" rel="noopener">
+          <div class="l">
+            <div class="icon">𝕏</div>
+            <div>
+              <div class="t">X / Twitter</div>
+              <div class="v">@zachkongoyu</div>
+            </div>
+          </div>
+          <div class="arr">↗</div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="wrap">
+    <div>© <span id="yr"></span> Zach Ko · made with caffeine and rust</div>
+    <div><a href="#top">back to top ↑</a></div>
+  </footer>
+
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
