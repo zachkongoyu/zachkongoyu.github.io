@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://zachkongoyu.github.io/sitemap.xml
